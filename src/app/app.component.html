@@ -1,0 +1,8 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<ng-container *ngIf="(obsebable$ | async); let interval">
+  <span> {{interval }}</span>
+</ng-container>
